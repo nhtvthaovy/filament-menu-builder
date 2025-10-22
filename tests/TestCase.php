@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace nhtvthaovy\FilamentMenuBuilder\Tests;
+namespace Nhtvthaovy\FilamentMenuBuilder\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
-use nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderServiceProvider;
+use Nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderServiceProvider;
 use Filament\Actions\ActionsServiceProvider;
 use Filament\FilamentServiceProvider;
 use Filament\Forms\FormsServiceProvider;
@@ -27,7 +27,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'nhtvthaovy\\FilamentMenuBuilder\\Database\\Factories\\' . class_basename($modelName) . 'Factory',
+            fn (string $modelName) => 'Nhtvthaovy\\FilamentMenuBuilder\\Database\\Factories\\' . class_basename($modelName) . 'Factory',
         );
     }
 

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace nhtvthaovy\FilamentMenuBuilder\Livewire;
+namespace Nhtvthaovy\FilamentMenuBuilder\Livewire;
 
-use nhtvthaovy\FilamentMenuBuilder\Enums\LinkTarget;
-use nhtvthaovy\FilamentMenuBuilder\Models\Menu;
+use Nhtvthaovy\FilamentMenuBuilder\Enums\LinkTarget;
+use Nhtvthaovy\FilamentMenuBuilder\Models\Menu;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;

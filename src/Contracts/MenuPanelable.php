@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace nhtvthaovy\FilamentMenuBuilder\Contracts;
+namespace Nhtvthaovy\FilamentMenuBuilder\Contracts;
 
 interface MenuPanelable
 {

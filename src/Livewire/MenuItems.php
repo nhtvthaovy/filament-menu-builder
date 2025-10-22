@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace nhtvthaovy\FilamentMenuBuilder\Livewire;
+namespace Nhtvthaovy\FilamentMenuBuilder\Livewire;
 
-use nhtvthaovy\FilamentMenuBuilder\Concerns\ManagesMenuItemHierarchy;
-use nhtvthaovy\FilamentMenuBuilder\Enums\LinkTarget;
-use nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
-use nhtvthaovy\FilamentMenuBuilder\Models\Menu;
+use Nhtvthaovy\FilamentMenuBuilder\Concerns\ManagesMenuItemHierarchy;
+use Nhtvthaovy\FilamentMenuBuilder\Enums\LinkTarget;
+use Nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
+use Nhtvthaovy\FilamentMenuBuilder\Models\Menu;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;

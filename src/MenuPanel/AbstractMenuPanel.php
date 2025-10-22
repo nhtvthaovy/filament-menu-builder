@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace nhtvthaovy\FilamentMenuBuilder\MenuPanel;
+namespace Nhtvthaovy\FilamentMenuBuilder\MenuPanel;
 
-use nhtvthaovy\FilamentMenuBuilder\Contracts\MenuPanel;
+use Nhtvthaovy\FilamentMenuBuilder\Contracts\MenuPanel;
 
 abstract class AbstractMenuPanel implements MenuPanel
 {
