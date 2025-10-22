@@ -21,6 +21,8 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
  * @property string|null $url
  * @property string|null $type
  * @property string|null $target
+ * @property string|null $description
+ * @property string|null $image
  * @property int $order
  * @property \Illuminate\Support\Carbon $created_at
  * @property \Illuminate\Support\Carbon $updated_at
