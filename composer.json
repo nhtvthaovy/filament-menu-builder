@@ -2,20 +2,20 @@
     "name": "nhtvthaovy/filament-menu-builder",
     "description": "Create and manage menus and menu items",
     "keywords": [
-        "datlechin",
+        "nhtvthaovy",
         "laravel",
         "filament-menu-builder"
     ],
-    "homepage": "https://github.com/datlechin/filament-menu-builder",
+    "homepage": "https://github.com/nhtvthaovy/filament-menu-builder",
     "support": {
-        "issues": "https://github.com/datlechin/filament-menu-builder/issues",
-        "source": "https://github.com/datlechin/filament-menu-builder"
+        "issues": "https://github.com/nhtvthaovy/filament-menu-builder/issues",
+        "source": "https://github.com/nhtvthaovy/filament-menu-builder"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Ngo Quoc Dat",
-            "email": "datlechin@gmail.com",
+            "email": "nhtvthaovy@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Datlechin\\FilamentMenuBuilder\\": "src/",
-            "Datlechin\\FilamentMenuBuilder\\Database\\Factories\\": "database/factories/"
+            "nhtvthaovy\\FilamentMenuBuilder\\": "src/",
+            "nhtvthaovy\\FilamentMenuBuilder\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Datlechin\\FilamentMenuBuilder\\Tests\\": "tests/"
+            "nhtvthaovy\\FilamentMenuBuilder\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -59,10 +59,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Datlechin\\FilamentMenuBuilder\\FilamentMenuBuilderServiceProvider"
+                "nhtvthaovy\\FilamentMenuBuilder\\FilamentMenuBuilderServiceProvider"
             ],
             "aliases": {
-                "FilamentMenuBuilder": "Datlechin\\FilamentMenuBuilder\\Facades\\FilamentMenuBuilder"
+                "FilamentMenuBuilder": "nhtvthaovy\\FilamentMenuBuilder\\Facades\\FilamentMenuBuilder"
             }
         }
     },

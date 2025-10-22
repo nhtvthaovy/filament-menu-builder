@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Datlechin\FilamentMenuBuilder\Tests;
+namespace nhtvthaovy\FilamentMenuBuilder\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
-use Datlechin\FilamentMenuBuilder\FilamentMenuBuilderServiceProvider;
+use nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderServiceProvider;
 use Filament\Actions\ActionsServiceProvider;
 use Filament\FilamentServiceProvider;
 use Filament\Forms\FormsServiceProvider;
@@ -27,7 +27,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Datlechin\\FilamentMenuBuilder\\Database\\Factories\\' . class_basename($modelName) . 'Factory',
+            fn (string $modelName) => 'nhtvthaovy\\FilamentMenuBuilder\\Database\\Factories\\' . class_basename($modelName) . 'Factory',
         );
     }
 

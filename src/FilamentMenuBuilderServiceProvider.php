@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Datlechin\FilamentMenuBuilder;
+namespace nhtvthaovy\FilamentMenuBuilder;
 
-use Datlechin\FilamentMenuBuilder\Livewire\CreateCustomLink;
-use Datlechin\FilamentMenuBuilder\Livewire\CreateCustomText;
-use Datlechin\FilamentMenuBuilder\Livewire\MenuItems;
-use Datlechin\FilamentMenuBuilder\Livewire\MenuPanel;
+use nhtvthaovy\FilamentMenuBuilder\Livewire\CreateCustomLink;
+use nhtvthaovy\FilamentMenuBuilder\Livewire\CreateCustomText;
+use nhtvthaovy\FilamentMenuBuilder\Livewire\MenuItems;
+use nhtvthaovy\FilamentMenuBuilder\Livewire\MenuPanel;
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Css;
 use Filament\Support\Facades\FilamentAsset;
@@ -31,7 +31,7 @@ class FilamentMenuBuilderServiceProvider extends PackageServiceProvider
                     ->publishConfigFile()
                     ->publishMigrations()
                     ->askToRunMigrations()
-                    ->askToStarRepoOnGitHub('datlechin/filament-menu-builder');
+                    ->askToStarRepoOnGitHub('nhtvthaovy/filament-menu-builder');
             });
 
         $configFileName = $package->shortName();
@@ -70,7 +70,7 @@ class FilamentMenuBuilderServiceProvider extends PackageServiceProvider
 
     protected function getAssetPackageName(): ?string
     {
-        return 'datlechin/filament-menu-builder';
+        return 'nhtvthaovy/filament-menu-builder';
     }
 
     protected function getAssets(): array

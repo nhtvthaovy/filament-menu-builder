@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Datlechin\FilamentMenuBuilder\Enums;
+namespace nhtvthaovy\FilamentMenuBuilder\Enums;
 
 use Filament\Support\Contracts\HasLabel;
 

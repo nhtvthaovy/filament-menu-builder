@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Datlechin\FilamentMenuBuilder\Concerns;
+namespace nhtvthaovy\FilamentMenuBuilder\Concerns;
 
-use Datlechin\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
-use Datlechin\FilamentMenuBuilder\Services\MenuItemService;
+use nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
+use nhtvthaovy\FilamentMenuBuilder\Services\MenuItemService;
 use Filament\Actions\Action;
 use Filament\Support\Enums\ActionSize;
 

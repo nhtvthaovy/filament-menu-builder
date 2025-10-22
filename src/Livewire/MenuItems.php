@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Datlechin\FilamentMenuBuilder\Livewire;
+namespace nhtvthaovy\FilamentMenuBuilder\Livewire;
 
-use Datlechin\FilamentMenuBuilder\Concerns\ManagesMenuItemHierarchy;
-use Datlechin\FilamentMenuBuilder\Enums\LinkTarget;
-use Datlechin\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
-use Datlechin\FilamentMenuBuilder\Models\Menu;
+use nhtvthaovy\FilamentMenuBuilder\Concerns\ManagesMenuItemHierarchy;
+use nhtvthaovy\FilamentMenuBuilder\Enums\LinkTarget;
+use nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
+use nhtvthaovy\FilamentMenuBuilder\Models\Menu;
 use Filament\Actions\Action;
 use Filament\Actions\Concerns\InteractsWithActions;
 use Filament\Actions\Contracts\HasActions;

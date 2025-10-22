@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Datlechin\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
+use nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
 
 it('can enable indent actions', function () {
     $plugin = FilamentMenuBuilderPlugin::make()

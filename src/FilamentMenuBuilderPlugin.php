@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Datlechin\FilamentMenuBuilder;
+namespace nhtvthaovy\FilamentMenuBuilder;
 
 use Closure;
-use Datlechin\FilamentMenuBuilder\Contracts\MenuPanel;
-use Datlechin\FilamentMenuBuilder\Models\Menu;
-use Datlechin\FilamentMenuBuilder\Models\MenuItem;
-use Datlechin\FilamentMenuBuilder\Models\MenuLocation;
-use Datlechin\FilamentMenuBuilder\Resources\MenuResource;
+use nhtvthaovy\FilamentMenuBuilder\Contracts\MenuPanel;
+use nhtvthaovy\FilamentMenuBuilder\Models\Menu;
+use nhtvthaovy\FilamentMenuBuilder\Models\MenuItem;
+use nhtvthaovy\FilamentMenuBuilder\Models\MenuLocation;
+use nhtvthaovy\FilamentMenuBuilder\Resources\MenuResource;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 use Filament\Support\Concerns\EvaluatesClosures;
