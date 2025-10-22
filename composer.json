@@ -1,21 +1,21 @@
 {
-    "name": "nhtvthaovy/filament-menu-builder",
+    "name": "datlechin/filament-menu-builder",
     "description": "Create and manage menus and menu items",
     "keywords": [
-        "nhtvthaovy",
+        "datlechin",
         "laravel",
         "filament-menu-builder"
     ],
-    "homepage": "https://github.com/nhtvthaovy/filament-menu-builder",
+    "homepage": "https://github.com/datlechin/filament-menu-builder",
     "support": {
-        "issues": "https://github.com/nhtvthaovy/filament-menu-builder/issues",
-        "source": "https://github.com/nhtvthaovy/filament-menu-builder"
+        "issues": "https://github.com/datlechin/filament-menu-builder/issues",
+        "source": "https://github.com/datlechin/filament-menu-builder"
     },
     "license": "MIT",
     "authors": [
         {
             "name": "Ngo Quoc Dat",
-            "email": "nhtvthaovy@gmail.com",
+            "email": "datlechin@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "nhtvthaovy\\FilamentMenuBuilder\\": "src/",
-            "nhtvthaovy\\FilamentMenuBuilder\\Database\\Factories\\": "database/factories/"
+            "Datlechin\\FilamentMenuBuilder\\": "src/",
+            "Datlechin\\FilamentMenuBuilder\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "nhtvthaovy\\FilamentMenuBuilder\\Tests\\": "tests/"
+            "Datlechin\\FilamentMenuBuilder\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -59,10 +59,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "nhtvthaovy\\FilamentMenuBuilder\\FilamentMenuBuilderServiceProvider"
+                "Datlechin\\FilamentMenuBuilder\\FilamentMenuBuilderServiceProvider"
             ],
             "aliases": {
-                "FilamentMenuBuilder": "nhtvthaovy\\FilamentMenuBuilder\\Facades\\FilamentMenuBuilder"
+                "FilamentMenuBuilder": "Datlechin\\FilamentMenuBuilder\\Facades\\FilamentMenuBuilder"
             }
         }
     },
