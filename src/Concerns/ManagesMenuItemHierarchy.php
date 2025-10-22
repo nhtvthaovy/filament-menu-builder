@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace nhtvthaovy\FilamentMenuBuilder\Concerns;
+namespace Nhtvthaovy\FilamentMenuBuilder\Concerns;
 
-use nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
-use nhtvthaovy\FilamentMenuBuilder\Services\MenuItemService;
+use Nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
+use Nhtvthaovy\FilamentMenuBuilder\Services\MenuItemService;
 use Filament\Actions\Action;
 use Filament\Support\Enums\ActionSize;
 

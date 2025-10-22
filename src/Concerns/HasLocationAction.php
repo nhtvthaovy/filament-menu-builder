@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace nhtvthaovy\FilamentMenuBuilder\Concerns;
+namespace Nhtvthaovy\FilamentMenuBuilder\Concerns;
 
-use nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
+use Nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
 use Filament\Actions\Action;
 use Filament\Forms\Components;
 use Filament\Notifications\Notification;

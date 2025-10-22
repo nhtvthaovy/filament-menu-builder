@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace nhtvthaovy\FilamentMenuBuilder\Livewire;
+namespace Nhtvthaovy\FilamentMenuBuilder\Livewire;
 
-use nhtvthaovy\FilamentMenuBuilder\Models\Menu;
+use Nhtvthaovy\FilamentMenuBuilder\Models\Menu;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;

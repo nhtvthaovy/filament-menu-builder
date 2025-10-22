@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace nhtvthaovy\FilamentMenuBuilder\MenuPanel;
+namespace Nhtvthaovy\FilamentMenuBuilder\MenuPanel;
 
 use Closure;
 use Illuminate\Database\Eloquent\Model;
@@ -10,14 +10,14 @@ use Illuminate\Database\Eloquent\Model;
 class ModelMenuPanel extends AbstractMenuPanel
 {
     /**
-     * @var \Illuminate\Database\Eloquent\Model&\nhtvthaovy\FilamentMenuBuilder\Contracts\MenuPanelable
+     * @var \Illuminate\Database\Eloquent\Model&\Nhtvthaovy\FilamentMenuBuilder\Contracts\MenuPanelable
      */
     protected Model $model;
 
     protected Closure $urlUsing;
 
     /**
-     * @param  class-string<\Illuminate\Database\Eloquent\Model&\nhtvthaovy\FilamentMenuBuilder\Contracts\MenuPanelable>  $model
+     * @param  class-string<\Illuminate\Database\Eloquent\Model&\Nhtvthaovy\FilamentMenuBuilder\Contracts\MenuPanelable>  $model
      */
     public function model(string $model): static
     {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace nhtvthaovy\FilamentMenuBuilder\Resources\MenuResource\Pages;
+namespace Nhtvthaovy\FilamentMenuBuilder\Resources\MenuResource\Pages;
 
-use nhtvthaovy\FilamentMenuBuilder\Concerns\HasLocationAction;
-use nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
+use Nhtvthaovy\FilamentMenuBuilder\Concerns\HasLocationAction;
+use Nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
 use Filament\Actions;
 use Filament\Forms\Components\Section;
 use Filament\Forms\Form;

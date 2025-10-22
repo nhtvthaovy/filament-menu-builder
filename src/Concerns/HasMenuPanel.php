@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace nhtvthaovy\FilamentMenuBuilder\Concerns;
+namespace Nhtvthaovy\FilamentMenuBuilder\Concerns;
 
 use Illuminate\Database\Eloquent\Builder;
 

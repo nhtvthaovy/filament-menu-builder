@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace nhtvthaovy\FilamentMenuBuilder;
+namespace Nhtvthaovy\FilamentMenuBuilder;
 
 use Closure;
-use nhtvthaovy\FilamentMenuBuilder\Contracts\MenuPanel;
-use nhtvthaovy\FilamentMenuBuilder\Models\Menu;
-use nhtvthaovy\FilamentMenuBuilder\Models\MenuItem;
-use nhtvthaovy\FilamentMenuBuilder\Models\MenuLocation;
-use nhtvthaovy\FilamentMenuBuilder\Resources\MenuResource;
+use Nhtvthaovy\FilamentMenuBuilder\Contracts\MenuPanel;
+use Nhtvthaovy\FilamentMenuBuilder\Models\Menu;
+use Nhtvthaovy\FilamentMenuBuilder\Models\MenuItem;
+use Nhtvthaovy\FilamentMenuBuilder\Models\MenuLocation;
+use Nhtvthaovy\FilamentMenuBuilder\Resources\MenuResource;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 use Filament\Support\Concerns\EvaluatesClosures;

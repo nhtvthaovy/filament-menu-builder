@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace nhtvthaovy\FilamentMenuBuilder\Services;
+namespace Nhtvthaovy\FilamentMenuBuilder\Services;
 
-use nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
+use Nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;

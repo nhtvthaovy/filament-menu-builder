@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace nhtvthaovy\FilamentMenuBuilder\MenuPanel;
+namespace Nhtvthaovy\FilamentMenuBuilder\MenuPanel;
 
 use Closure;
 

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace nhtvthaovy\FilamentMenuBuilder\Resources;
+namespace Nhtvthaovy\FilamentMenuBuilder\Resources;
 
-use nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
+use Nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin;
 use Filament\Forms\Components;
 use Filament\Forms\Components\Component;
 use Filament\Forms\Form;
