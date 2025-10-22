@@ -31,7 +31,7 @@ class FilamentMenuBuilderServiceProvider extends PackageServiceProvider
                     ->publishConfigFile()
                     ->publishMigrations()
                     ->askToRunMigrations()
-                    ->askToStarRepoOnGitHub('Nhtvthaovy/filament-menu-builder');
+                    ->askToStarRepoOnGitHub('nhtvthaovy/filament-menu-builder');
             });
 
         $configFileName = $package->shortName();
