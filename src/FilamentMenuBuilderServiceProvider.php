@@ -70,7 +70,7 @@ class FilamentMenuBuilderServiceProvider extends PackageServiceProvider
 
     protected function getAssetPackageName(): ?string
     {
-        return 'Nhtvthaovy/filament-menu-builder';
+        return 'nhtvthaovy/filament-menu-builder';
     }
 
     protected function getAssets(): array
