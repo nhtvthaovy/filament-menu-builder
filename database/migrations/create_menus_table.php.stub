@@ -26,6 +26,8 @@ return new class extends Migration
             $table->string('title');
             $table->string('url')->nullable();
             $table->string('target', 10)->default(LinkTarget::Self);
+            $table->text('description')->nullable(); // thêm cột mô tả
+            $table->string('image')->nullable();     // thêm cột ảnh
             $table->integer('order')->default(0);
             $table->timestamps();
         });
