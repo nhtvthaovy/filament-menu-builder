@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) nhtvthaovy <nhtvthaovy@gmail.com>
+Copyright (c) datlechin <datlechin@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
