@@ -2,7 +2,7 @@
     @if($this->menuItems->isNotEmpty())
         <ul
             ax-load
-            ax-load-src="{{ \Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('filament-menu-builder', 'Nhtvthaovy/filament-menu-builder') }}"
+            ax-load-src="{{ \Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('filament-menu-builder', 'nhtvthaovy/filament-menu-builder') }}"
             x-data="menuBuilder({ parentId: 0 })"
             class="space-y-2"
         >

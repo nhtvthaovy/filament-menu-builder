@@ -3,7 +3,7 @@
 ])
 
 @php
-    /** @var \Nhtvthaovy\FilamentMenuBuilder\Models\MenuItem $item */
+    /** @var \nhtvthaovy\FilamentMenuBuilder\Models\MenuItem $item */
 
     $hasChildren = $item->children->isNotEmpty();
 @endphp
@@ -31,7 +31,7 @@
                 />
             @endif
 
-            @if (\Nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin::get()->isIndentActionsEnabled())
+            @if (\nhtvthaovy\FilamentMenuBuilder\FilamentMenuBuilderPlugin::get()->isIndentActionsEnabled())
                 {{ ($this->unindentAction)(['id' => $item->getKey()]) }}
                 {{ ($this->indentAction)(['id' => $item->getKey()]) }}
             @endif
